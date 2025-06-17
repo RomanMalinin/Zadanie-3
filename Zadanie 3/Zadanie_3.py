@@ -15,6 +15,12 @@ def text_analyzer(file_path):
         # Подсчёт слов (игнорируем знаки препинания)
         words = re.findall(r'\b\w+\b', text)
         word_stats = Counter(words)
+        
+        # Вывод результатов
+        print(f"\n📊 Анализ файла: {file_path}")
+        print(f"📝 Всего слов: {len(words)}")
+        print(f"🔤 Уникальных слов: {len(word_stats)}")
+        print(f"📜 Всего символов (без пробелов): {len(chars)}")
 
         JNFDuieyyuhbjksfjgkgsmoj 
         skgsofgniru342782782ugnipo2wg
