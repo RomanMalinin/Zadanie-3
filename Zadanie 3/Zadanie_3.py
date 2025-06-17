@@ -20,6 +20,11 @@ def text_analyzer(file_path):
         print(f"📝 Всего слов: {len(words)}")
         print(f"🔤 Уникальных слов: {len(word_stats)}")
         print(f"📜 Всего символов (без пробелов): {len(chars)}")
+
+        JNFDuieyyuhbjksfjgkgsmoj 
+        skgsofgniru342782782ugnipo2wg
+        rgmiwogrwniojurguibnwgrwyu8
+        wKEMjkesj SDIJLGnsIOuguiy4we GUISEGHisG
             
         print("\n🔠 Частота символов:")
         for char, count in char_stats.most_common(5):
