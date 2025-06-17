@@ -20,10 +20,6 @@ def text_analyzer(file_path):
         print(f"📝 Всего слов: {len(words)}")
         print(f"🔤 Уникальных слов: {len(word_stats)}")
         print(f"📜 Всего символов (без пробелов): {len(chars)}")
-        
-        print("\n🔝 Топ-5 часто встречающихся слов:")
-        for word, count in word_stats.most_common(5):
-            print(f"'{word}': {count} раз")
             
         print("\n🔠 Частота символов:")
         for char, count in char_stats.most_common(5):
