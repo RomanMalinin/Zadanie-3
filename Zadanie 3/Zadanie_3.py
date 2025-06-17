@@ -1,4 +1,5 @@
-﻿import re
+﻿from importlib.machinery import DEBUG_BYTECODE_SUFFIXES
+import re
 from collections import Counter
 
 def text_analyzer(file_path):
@@ -28,6 +29,12 @@ def text_analyzer(file_path):
         print("❌ Ошибка: файл не найден!")
     except Exception as e:
         print(f"❌ Произошла ошибка: {e}")
+
+        bytearray
+        ##@QTTQTtEDTDGTDSG
+        DEBUG_BYTECODE_SUFFIXES
+        322352525tge
+        yield
 
 # Пример использования
 if __name__ == "__main__":
