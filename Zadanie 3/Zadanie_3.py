@@ -29,6 +29,11 @@ def text_analyzer(file_path):
         print("\n🔠 Частота символов:")
         for char, count in char_stats.most_common(5):
             print(f"'{char}': {count} раз")
+    
+    except FileNotFoundError:
+        print("❌ Ошибка: файл не найден!")
+    except Exception as e:
+        print(f"❌ Произошла ошибка: {e}")
 
 # Пример использования
 if __name__ == "__main__":
