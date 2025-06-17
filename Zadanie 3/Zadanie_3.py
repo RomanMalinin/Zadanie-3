@@ -10,21 +10,6 @@ def text_analyzer(file_path):
         # Подсчёт символов (без пробелов и переносов строк)
         chars = [char for char in text if char.isalpha()]
         char_stats = Counter(chars)
-        
-        # Подсчёт слов (игнорируем знаки препинания)
-        words = re.findall(r'\b\w+\b', text)
-        word_stats = Counter(words)
-        
-        # Вывод результатов
-        print(f"\n📊 Анализ файла: {file_path}")
-        print(f"📝 Всего слов: {len(words)}")
-        print(f"🔤 Уникальных слов: {len(word_stats)}")
-        print(f"📜 Всего символов (без пробелов): {len(chars)}")
-
-        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-        EKLIUGENU*GEHI(  UUJEJEJOEJ
-                       33783573573525
-                       FDffdffddfsfsddfsdfdsfdfs)
             
         print("\n🔠 Частота символов:")
         for char, count in char_stats.most_common(5):
